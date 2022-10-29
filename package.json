@@ -2,6 +2,11 @@
   "name": "auto-dex-swap",
   "version": "0.1.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "watch": "tsc -w",
+    "build": "tsc"
+  },
   "repository": "https://github.com/wrule/auto-dex-swap.git",
   "license": "MIT",
   "private": false
