@@ -1,2 +1,9 @@
+import { ethers } from 'ethers';
+const secret = require('../.secret.json');
 
-console.log('你好，世界');
+async function main() {
+  const provider = new ethers.providers.JsonRpcProvider(`https://goerli.infura.io/v3/${secret.prj_id}`);
+  // const wallet = new ethers.Wallet(secret.pri_key, provider);
+}
+
+main();
